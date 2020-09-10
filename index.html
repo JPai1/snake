@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>Snake Game</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel = "stylesheet" href = screen.css>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script type="text/javascript" src="main.js"></script>
+        <link rel="shortcut icon" href="https://banner2.cleanpng.com/20180322/hxq/kisspng-snake-animation-cartoon-clip-art-snake-5ab42e3e983a47.3110337615217577586235.jpg">
+        <!-- set up scss -->
+    </head>
+    <!--add themes and game levels and pause button and random increments for impossible level-->
+    <body>
+        <div class="content-area group section">
+            <!-- container -->
+            <div class="container">
+                <div class = "row">
+                    <!-- <p class = "speedLabel">Speed: </p>
+                    <select id="speed">
+                        <option value="1">Easy</option>
+                        <option value="2">Medium</option>
+                        <option value="2">Hard</option>
+                    </select> -->
+                </div>
+                <div class = "row row_relative" id = "mainRow">
+                    <button type = "button" class = "start" onClick = "start()">Start</button>
+                    
+                    <!-- <button type = "button" class = "start" onClick = "end()">End</button> -->
+                </div> <!-- Row -->
+                <div class = "stats">
+                    <p id = "highscore"></p> 
+                    <p id = "score"></p>
+                </div>
+                <!-- <p id = speed">Speed: </p> 
+                <p id = "bodyIncrement">Amount added per apple: </p> -->
+            </div> <!-- container -->
+        </div> <!-- content-area -->
+
+    </body>
+</html>
